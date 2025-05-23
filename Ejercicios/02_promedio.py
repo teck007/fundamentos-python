@@ -1,6 +1,7 @@
-#Ejercicio N2
-#Usuario debe ingresar nombre y 3 notas, el programa
-#debe mostrar su nombre y promedio
+"""
+Ejercicio N2
+Usuario debe ingresar nombre y 3 notas, el programa debe mostrar su nombre y promedio
+"""
 nombre = input("Ingrese su nombre")
 nota1 = float(input("Ingrese la primera nota"))
 nota2 = float(input("Ingrese la segunda nota"))

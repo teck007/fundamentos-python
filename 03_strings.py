@@ -26,3 +26,14 @@ print(nombre[1:3])
 print(nombre[1:])
 #Mostrar carácteres a la inversa la posición 2 
 print(nombre[-2])
+
+#Concatenar o unir
+edad = 37
+print("Mis datos son " + nombre + " " +  apellido + " " + str(edad))
+
+#Concatenar o unir en una variable
+datos = nombre + " " +  apellido + " " + str(edad)
+print(datos)
+
+datos = nombre + "\n" +  apellido + "\n" + str(edad)
+print(datos)
