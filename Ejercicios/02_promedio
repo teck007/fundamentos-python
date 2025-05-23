@@ -1,11 +1,3 @@
-#Ejercicio N1
-#calculadora de IMC
-#peso/(altura²)
-
-peso = float(input("Ingrese peso en kilos"))
-altura = float(input("Ingrese altura en metros"))
-print("Su IMC es:", peso/altura**2)
-
 #Ejercicio N2
 #Usuario debe ingresar nombre y 3 notas, el programa
 #debe mostrar su nombre y promedio
