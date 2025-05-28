@@ -68,4 +68,4 @@ print(mi_nueva_lista.reverse()) # Invertir la lista
 print(mi_nueva_lista) #Imprime la lista completa
 
 mi_nueva_lista.sort() # Ordenar la lista
-print(mi_nueva_lista) #Imprime la lista completa
+print(mi_nueva_lista) #Imprime la lista completa 
