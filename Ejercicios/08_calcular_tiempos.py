@@ -1,4 +1,5 @@
-"""Ejercicio N8
+"""
+Ejercicio N8
 El usuario debe ingresar su nombre y 4 tiempos minutos de ida y vuelta
 en un tramo especifico, el programa debe ordenar los tiempos de
 menor a mayor y debe mostrar el promedio de tiempo, asi como
