@@ -1,3 +1,6 @@
+"""
+https://learning.skillnest.com/cursos/python-full-stack-b2u-4-medio-principe-de-gales-2025/leccion/fundamentos-de-python-funciones-basicas-2-practica-14/
+"""
 # ejercicio 1
 def multiplicax2(num1):
     resultado = []
@@ -8,3 +11,8 @@ def multiplicax2(num1):
 print(multiplicax2(5))
 
 # ejercicio 2
+def suma_resta(a, b):
+  print(a + b)
+  return a - b
+
+print(suma_resta(5, 4))
