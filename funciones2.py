@@ -16,3 +16,13 @@ def suma_resta(a, b):
   return a - b
 
 print(suma_resta(5, 4))
+
+# ejercicio 3
+def suma_longitud(lista=[]):
+  return sum(lista)-len(lista)
+  
+print(suma_longitud([1,2,3,4]))
+
+# ejercicio 4
+def valores_multiplicados(lista=[]):
+    
