@@ -25,4 +25,10 @@ print(suma_longitud([1,2,3,4]))
 
 # ejercicio 4
 def valores_multiplicados(lista=[]):
-    
+  nueva_lista=[]
+  for i in lista:
+    nueva_lista.append(i*lista[1])
+  print(len(lista))
+  return nueva_lista
+
+print(valores_multiplicados([1,3,5,7]))
