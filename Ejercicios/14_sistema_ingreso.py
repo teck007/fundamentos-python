@@ -16,3 +16,17 @@ Se necesita un sistema automatizado para el cobro de entradas. El programa debe 
 
 Utiliza estructuras de control como bucles for, listas y diccionarios para resolver el ejercicio.
 """
+
+print("Bienvenido a Fullpark, el mejor lugar para disfrutar de tus juegos favoritos")
+cantidad_personas = int(input("Ingrese cantidad de personas del grupo"))
+monto_total = 0
+for i in range(cantidad_personas):
+    nombre = input("Ingrese nombre, persona " + str(i+1))
+    edad = int(input("Ingrese edad, persona " + str(i+1)))
+    if 4 <= edad < 18:
+        monto_total = monto_total + 3000
+    else:
+        monto_total = monto_total + 5000
+tiempo = int(input("Ingrese tiempo de permanencia en horas"))
+monto_total = monto_total * tiempo
+print("El total a pagar es:", monto_total)
