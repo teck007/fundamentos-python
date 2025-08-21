@@ -20,7 +20,7 @@ def renderizar_listas():
        {'nombre': 'Marcelo', 'edad': 22},
        {'nombre': 'Nicolas', 'edad': 19}
    ]
-   return render_template('listas.jinja', numero = numero_azar, estudiantes=listado_estudiantes)
+   return render_template('listas.jinja', numero = numero_azar, estudiantes=listado_estudiantes, estudiantes2=listado_estudiantes2)
 
 if __name__ == '__main__':
    app.run(debug=True)
